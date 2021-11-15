@@ -6,4 +6,3 @@ def gcd(m, n):
 n, m = tuple(map(int, input().split(':')))
 div = gcd(n, m)
 print("%d:%d" % (int(n / div), int(m/div)))
-
