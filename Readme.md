@@ -1,6 +1,6 @@
 # 목표: 진짜 골드
 # 0. 개요
-[Baekjoon Online Judge]([boj.kr](https://www.acmicpc.net/))에서 [제가 푼 문제들](https://www.acmicpc.net/user/twicedtna)의 코드를 저장하는 곳입니다. 틀린 코드도 있으며, 그 경우 코드 첫 부분에 틀렸다고 쓰여 있습니다. 같은 문제에 대해 여러 버전의 코드가 있을 수 있는데, 이 경우 보통 마지막 버전이 최종 버전입니다.
+[Baekjoon Online Judge](https://www.acmicpc.net/)에서 [제가 푼 문제들](https://www.acmicpc.net/user/twicedtna)의 코드를 저장하는 곳입니다. 틀린 코드도 있으며, 그 경우 코드 첫 부분에 틀렸다고 쓰여 있습니다. 같은 문제에 대해 여러 버전의 코드가 있을 수 있는데, 이 경우 보통 마지막 버전이 최종 버전입니다.
 
 이 문서에는 제가 문제를 풀면서 염두에 두어야 할 것들을 따로 정리하고자 합니다. 제 편의를 위해 높임말을 쓸 수도 있고 쓰지 않을 수도 있으니 양해 부탁드립니다.
 
