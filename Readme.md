@@ -1,4 +1,3 @@
-# 목표: 진짜 골드
 # 0. 개요
 [Baekjoon Online Judge](https://www.acmicpc.net/)에서 [제가 푼 문제들](https://www.acmicpc.net/user/twicedtna)의 코드를 저장하는 곳입니다. 틀린 코드도 있으며, 그 경우 코드 첫 부분에 틀렸다고 쓰여 있습니다. 같은 문제에 대해 여러 버전의 코드가 있을 수 있는데, 이 경우 보통 마지막 버전이 최종 버전입니다.
 
@@ -7,9 +6,9 @@
 * * *
 # 1. 알고리즘과 관련은 없지만 염두에 두어야 할 것들
 ### 1.1. 정답 출력 양식 꼼꼼히 확인하기. 
-<span style="color:red">각 줄 맨 마지막에 공백이 허용되는지</span>
+<span style="color:red">**각 줄 맨 마지막에 공백이 허용되는지**</span>
 
-<span style="color:red">출력 대소문자</span>
+<span style="color:red">**출력 대소문자**</span>
 
 ### 1.2. 문제 꼼꼼히 읽기
 시키는 대로 안 해놓고 왜 안 되냐고 변명ㄴ
@@ -36,7 +35,10 @@ arr[i] = 1
 
 * * *
 # 3. DFS/BFS
-파이썬으로 풀 때 setrecursionlimit() 잊지 말기.
+
+```Python
+sys.setrecursionlimit() # 파이썬으로 재귀형 DFS 구현 시
+```
 
 둘 중에 하나로 해서 안 되면 오기 부리지 말고 다른 걸로 해 보기.
 
