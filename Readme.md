@@ -38,6 +38,12 @@ for x in chain(a, b): print(x, end=' ')
 1 2 3 4 5 6 7 8 9 7 77 777
 '''
 ```
+### 1.8. itertools.combinations
+```Python
+from itertools import combinations
+combinations(iterable, n)
+```
+iterable에서 n개를 뽑는 조합을 구합니다. for문을 통해 내용물을 하나씩 뽑을 수 있음.
 * * *
 # 2. 슬라이딩 윈도우
 재밌는 기법. O(n) 시간이니 잘 생각해서 쓰자.
