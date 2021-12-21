@@ -44,6 +44,13 @@ from itertools import combinations
 combinations(iterable, n)
 ```
 iterable에서 n개를 뽑는 조합을 구합니다. for문을 통해 내용물을 하나씩 뽑을 수 있음.
+### 1.9. bisect
+```Python
+from bisect import bisect_left, bisect_right
+bisect_right(array, value, left=0, right=len(array))
+```
+bisect_right는 array가 정렬되어 있다는 가정 하에, value를 array에 순서를 망가뜨리지 않고 집어넣으려 할 때 어떤 index에 들어가야 할 지를 구해줍니다. right인 이유는 만약 value와 같은 값이 array에 있으면 그 값 바로 오른쪽에 넣을 수 있도록 해 주는 거라서. 자매품으로 bisect_left가 있음.    
+이 함수의 코드는 [여기](https://github.com/python/cpython/blob/3.8/Lib/bisect.py)에서 직접 확인 가능.
 * * *
 # 2. 슬라이딩 윈도우
 재밌는 기법. O(n) 시간이니 잘 생각해서 쓰자.
