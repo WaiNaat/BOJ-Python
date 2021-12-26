@@ -26,7 +26,8 @@ arr[i] = 1
 ```
 위쪽은 a에 1 객체의 포인터가 들어 있고, 아래쪽은 arr 기본 주소에서 i만큼의 위치에 1 객체의 포인터가 들어 있다. 파이썬에서는 모든 것들이 reference type이니까 "i만큼의 위치"라는 말에서 'i' 역시 값이 아니라 포인터일 가능성이 높다고 본다. 그러면 arr[i]의 올바른 위치를 찾는 데 상대적으로 더 많은 시간이 걸릴 것이라 생각한다.
 ### 1.6. 재귀와 스택
-파이썬에서 재귀를 할 때, 나만의 스택을 만들어서 재귀를 대체할 수 있다면 그렇게 하는 것이 메모리 측면에서 효율적이다.
+~~파이썬에서 재귀를 할 때, 나만의 스택을 만들어서 재귀를 대체할 수 있다면 그렇게 하는 것이 메모리 측면에서 효율적이다.~~ 확인 필요
+
 ### 1.7. itertools.chain
 for문 같은 곳에서 범위가 난잡하면 itertools의 chain()을 통해 합칠 수 있다.
 ```Python
@@ -51,6 +52,11 @@ bisect_right(array, value, left=0, right=len(array))
 ```
 bisect_right는 array가 정렬되어 있다는 가정 하에, value를 array에 순서를 망가뜨리지 않고 집어넣으려 할 때 어떤 index에 들어가야 할 지를 구해줍니다. right인 이유는 만약 value와 같은 값이 array에 있으면 그 값 바로 오른쪽에 넣을 수 있도록 해 주는 거라서. 자매품으로 bisect_left가 있음.    
 이 함수의 코드는 [여기](https://github.com/python/cpython/blob/3.8/Lib/bisect.py)에서 직접 확인 가능.
+### 1.10. string slicing
+```Python
+s = s[start : end : step]
+```
+step이 -1일 경우 문자열을 반전시킬 수 있습니다.
 * * *
 # 2. 슬라이딩 윈도우
 재밌는 기법. O(n) 시간이니 잘 생각해서 쓰자.
