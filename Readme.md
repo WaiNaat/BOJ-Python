@@ -57,6 +57,12 @@ bisect_right는 array가 정렬되어 있다는 가정 하에, value를 array에
 s = s[start : end : step]
 ```
 step이 -1일 경우 문자열을 반전시킬 수 있습니다.
+### 1.11 itertools.product
+```Python
+from itertools import product
+product(iterable, repeat = n)
+```
+iterable에 대해 n중 for문을 돌리는 것과 같습니다.
 * * *
 # 2. 슬라이딩 윈도우
 재밌는 기법. O(n) 시간이니 잘 생각해서 쓰자.
